@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pascal.appsmk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".view.login.StartActivity"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+        <activity android:name=".view.admin.prestasi.DetailPrestasiActivity" />
+        <activity android:name=".view.admin.staff.DetailStaffActivity" />
+        <activity android:name=".view.admin.staff.InputStaffActivity" />
+        <activity android:name=".view.admin.profil.InputProfilActivity" />
+        <activity android:name=".view.admin.prestasi.InputPrestasiActivity" />
+        <activity android:name=".view.admin.kehadiran.InputKehadiranActivity" />
+        <activity android:name=".view.admin.jadwal.InputJadwalActivity" />
+        <activity android:name=".view.admin.eskul.InputEskulActivity" />
+        <activity android:name=".view.admin.staff.StaffAdminActivity" />
+        <activity android:name=".view.admin.prestasi.PrestasiAdminActivity" />
+        <activity android:name=".view.admin.kehadiran.KehadiranAdminActivity" />
+        <activity android:name=".view.admin.jadwal.JadwalAdminActivity" />
+        <activity android:name=".view.admin.eskul.EskulAdminActivity" />
+        <activity android:name=".view.admin.profil.ProfilAdminActivity" />
+        <activity android:name=".view.login.RegisterActivity" />
+        <activity android:name=".view.login.LoginActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".view.admin.dashboard.DashboardAdminActivity">
+
+        </activity>
+        <activity android:name=".view.main.MainActivity" />
+    </application>
+
+</manifest>

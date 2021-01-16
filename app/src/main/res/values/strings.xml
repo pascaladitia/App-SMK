@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">appSMK</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="welcome">Selamat datang di aplikasi SMK YAPAN</string>
+    <string name="profil_sekolah">Profil Sekolah</string>
+    <string name="staff_sekolah">Staff Sekolah</string>
+    <string name="guru_eskul">Guru Eskul</string>
+    <string name="prestasi_sekolah">Prestasi Sekolah</string>
+    <string name="jadwal_pelajaran">Jadwal Pelajaran</string>
+    <string name="kehadiran_siswa">Kehadiran Siswa</string>
+    <string name="smk_yapan">SMK YAPAN</string>
+    <string name="profil_deskripsi">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+</resources>

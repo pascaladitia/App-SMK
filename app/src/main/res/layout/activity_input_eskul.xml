@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_input"
+    tools:context=".view.admin.eskul.InputEskulActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:background="#FF9800" />
+
+        <TextView
+            android:id="@+id/inputEskul_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_arrow_back_ios_24"
+            android:padding="20dp"
+            android:text="Back"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/inputEskul_image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_image"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="6dp"
+                app:civ_circle_background_color="#C1BEBE" />
+
+            <EditText
+                android:id="@+id/inputEskul_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bgg_text"
+                android:hint="Nama"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/inputEskul_ttl"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bgg_text"
+                android:hint="TTL, ex : 22-01-2021"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/inputEskul_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bgg_text"
+                android:hint="Alamat"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/inputEskul_jabatan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bgg_text"
+                android:hint="Jabatan, ex: Guru Olahraga"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/inputEskul_tentang"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/bgg_text"
+                android:gravity="top"
+                android:hint="Tentang"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/btnEskul_Input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ripple_btn"
+                android:text="Save"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#FF9800" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

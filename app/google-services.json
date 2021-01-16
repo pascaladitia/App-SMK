@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1022556282804",
+    "firebase_url": "https://smkapp2-default-rtdb.firebaseio.com",
+    "project_id": "smkapp2",
+    "storage_bucket": "smkapp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022556282804:android:8af8fdb7b14c79e9509ce1",
+        "android_client_info": {
+          "package_name": "com.pascal.appsmk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022556282804-s4acvbhlsmdkqs93rqnh1n3ljifbuml5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pascal.appsmk",
+            "certificate_hash": "2c0ffc0d3be296ff49937c0c4dcd0c7794867644"
+          }
+        },
+        {
+          "client_id": "1022556282804-t4bb5bau4h83ogv8qn3rhssro3slj607.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCicJ4d1PGfY0t2rZnG57qDHVHIfE8QBO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022556282804-t4bb5bau4h83ogv8qn3rhssro3slj607.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
